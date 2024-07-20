@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(222, 223, 223);
+  font-family: arial, Verdana, Tahoma;
+  text-align: auto;
+}
+h1,
+h2,
+h3 {
+  color: rgb(60, 122, 180);
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+/* 
+  Box Shadow: Adds a subtle shadow effect to the image to create a sense of depth and separation 
+  from the background. The values used are:
+  - `0`: Horizontal offset of the shadow (0 means no horizontal shift).
+  - `4px`: Vertical offset of the shadow (4px means the shadow is slightly below the image).
+  - `8px`: Blur radius (8px means the shadow will be softly blurred).
+  - `rgba(0, 0, 0, 0.2)`: Color and opacity of the shadow (a very light black with 10% opacity).
+  
+  This combination creates a gentle shadow effect that enhances the image's visual appeal without being too strong.
+*/
+img {
+  height: auto;
+  width: 500px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0.2);
+}
