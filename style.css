@@ -1,0 +1,21 @@
+body {
+  background-color: whitesmoke;
+  font-family: arial, Verdana, Tahoma;
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  text-align: auto;
+  color: darkblue;
+  /* text-align: center; */
+}
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: brown;
+  text-decoration: underline;
+}
+ul {
+  display: flex;
+  background-color: lightgray;
+  justify-content: space-around;
+}
